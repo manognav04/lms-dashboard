@@ -1,0 +1,34 @@
+{
+  "name": "lms-dashboard",
+  "version": "1.0.0",
+  "description": "lms dashboard for healthcare domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manognav04/lms-dashboard.git"
+  },
+  "keywords": [
+    "lms",
+    "dashboard",
+    "protractor",
+    "automation"
+  ],
+  "author": "vmano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manognav04/lms-dashboard/issues"
+  },
+  "homepage": "https://github.com/manognav04/lms-dashboard#readme",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jasmine": "^3.5.0"
+  }
+}
