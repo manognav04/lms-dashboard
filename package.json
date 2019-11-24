@@ -4,7 +4,7 @@
   "description": "lms dashboard for healthcare domain",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "./node_modules/.bin/protractor config.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,12 @@
     "protractor": "^5.4.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
     "eslint": "^6.7.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
